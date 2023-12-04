@@ -14,7 +14,7 @@
                 <input v-else v-model="editedTask" @keyup.enter="updateTask" @blur="cancelUpdate">
                 <div>
                     <!-- Buttons to update and delete tasks, respectively. They call the updateTask and deleteTask methods, passing the index of thupe task. -->
-                    <button @click="editTask(index)">Edit</button>
+                    <button @click="editTask(index)">Update</button>
                     <button @click="deleteTask(index)">Delete</button>
                 </div>
             </li>
